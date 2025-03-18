@@ -79,13 +79,15 @@ body {
 .header {
 }
 
-.heafer__grid {
+.header__grid {
+  position: relative;
   display: grid;
   grid-template-columns: 200px auto 200px;
   gap: 30px;
   align-items: end;
 }
 .header__col {
+  padding-bottom: 200px; 
 }
 .scrol-text {
   font-family: Montserrat;
@@ -112,23 +114,16 @@ body {
 }
 
 .header__content {
-}
-.heder-img-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 120px;
+}
+.header__content p{
+  text-align: center;
 }
 .header-img {
-  width: 534px;
-  height: 802px;
+  position: relative;
+  max-width: 534px;
 }
-.header-title {
-  font-family: Nunito;
-  font-weight: 500;
-  font-size: 110px;
-  line-height: 100px;
-  letter-spacing: 20px;
-  text-align: center;
-  margin-top: -30px;
-  transform: translateY(-100%);
-}
+
